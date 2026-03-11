@@ -1,0 +1,299 @@
+.backNav {
+  background: var(--color-surface-alt);
+  border-bottom: 1px solid var(--color-border);
+  padding: var(--spacing-sm) 0;
+}
+
+.backLink {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  transition: color var(--transition-fast);
+}
+
+.backLink:hover {
+  color: var(--color-primary);
+}
+
+/* ── Vaga Hero ────────────────────────────────────────────── */
+
+.vagaHero {
+  background: var(--color-primary);
+  padding-block: var(--spacing-xl);
+}
+
+.vagaHeroInner {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: var(--spacing-xl);
+  align-items: start;
+}
+
+.vagaHeroContent {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.vagaBadges {
+  display: flex;
+  gap: var(--spacing-xs);
+  flex-wrap: wrap;
+}
+
+.vagaTitulo {
+  font-size: var(--font-size-2xl);
+  color: #fff;
+}
+
+.vagaEmpresa {
+  font-size: var(--font-size-md);
+  color: rgba(255,255,255,.7);
+}
+
+.vagaMeta {
+  display: flex;
+  gap: var(--spacing-lg);
+  flex-wrap: wrap;
+}
+
+.vagaMetaItem {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  font-size: var(--font-size-sm);
+  color: rgba(255,255,255,.65);
+}
+
+.vagaSalario {
+  font-size: var(--font-size-base);
+  font-weight: 700;
+  color: var(--color-accent-yellow);
+}
+
+.vagaHeroCta {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  align-items: center;
+  min-width: 260px;
+}
+
+.vagaHeroNote {
+  font-size: var(--font-size-xs);
+  color: rgba(255,255,255,.5);
+  text-align: center;
+  line-height: 1.5;
+  max-width: 240px;
+}
+
+/* ── Layout ───────────────────────────────────────────────── */
+
+.vagaLayout {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: var(--spacing-xl);
+  align-items: start;
+}
+
+.vagaMain {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xl);
+}
+
+.vagaBlock h2 {
+  font-size: var(--font-size-lg);
+  margin-bottom: var(--spacing-md);
+  padding-bottom: var(--spacing-sm);
+  border-bottom: 2px solid var(--color-accent-yellow);
+  display: inline-block;
+}
+
+.vagaBlock p {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  line-height: var(--line-height-loose);
+}
+
+.checkList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.checkList li {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-sm);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  line-height: 1.6;
+}
+
+.checkIcon {
+  color: var(--color-success);
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.beneficiosList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+}
+
+.beneficiosList li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  background: var(--color-surface-alt);
+  border-radius: var(--radius-full);
+  font-size: var(--font-size-sm);
+  border: 1px solid var(--color-border);
+}
+
+.giftIcon {
+  color: var(--color-accent-orange);
+  flex-shrink: 0;
+}
+
+/* ── Sidebar ──────────────────────────────────────────────── */
+
+.vagaSidebar {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+  position: sticky;
+  top: 88px;
+}
+
+.sidebarCard {
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  padding: var(--spacing-lg);
+}
+
+.sidebarCard h3 {
+  font-size: var(--font-size-base);
+  margin-bottom: var(--spacing-md);
+  padding-bottom: var(--spacing-sm);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.details > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: var(--spacing-xs);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.details > div:last-child {
+  border-bottom: none;
+}
+
+.details dt {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+  font-weight: 500;
+}
+
+.details dd {
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+.sidebarCta {
+  background: var(--color-primary);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.sidebarCta h3 {
+  color: #fff;
+  font-size: var(--font-size-base);
+}
+
+.sidebarCta p {
+  font-size: var(--font-size-xs);
+  color: rgba(255,255,255,.65);
+  line-height: var(--line-height-loose);
+}
+
+/* ── Mini card ────────────────────────────────────────────── */
+
+.mini {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+  padding: var(--spacing-md);
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  transition: all var(--transition-fast);
+}
+
+.mini:hover {
+  box-shadow: var(--shadow-sm);
+  border-color: var(--color-primary);
+}
+
+.mini h4 {
+  font-size: var(--font-size-base);
+  color: var(--color-primary);
+}
+
+.mini p {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+}
+
+.miniLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-top: var(--spacing-xs);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .vagaLayout {
+    grid-template-columns: 1fr;
+  }
+
+  .vagaSidebar {
+    position: static;
+  }
+
+  .vagaHeroInner {
+    grid-template-columns: 1fr;
+  }
+
+  .vagaHeroCta {
+    min-width: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .vagaTitulo {
+    font-size: var(--font-size-xl);
+  }
+}

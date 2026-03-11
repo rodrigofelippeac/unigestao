@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(mkdir -p /Users/rodrigofelippe/Documents/projetosgit/unigestao/frontend/src/styles)",
+      "Bash(mkdir -p /Users/rodrigofelippe/Documents/projetosgit/unigestao/frontend/src/components/ui)",
+      "Bash(mkdir -p /Users/rodrigofelippe/Documents/projetosgit/unigestao/frontend/src/components/layout)",
+      "Bash(mkdir -p /Users/rodrigofelippe/Documents/projetosgit/unigestao/frontend/src/pages/Home)",
+      "Bash(mkdir -p /Users/rodrigofelippe/Documents/projetosgit/unigestao/frontend/src/pages/Sobre)",
+      "Bash(mkdir -p /Users/rodrigofelippe/Documents/projetosgit/unigestao/frontend/src/pages/Servicos)",
+      "Bash(mkdir -p /Users/rodrigofelippe/Documents/projetosgit/unigestao/frontend/src/pages/Vagas)",
+      "Bash(mkdir -p /Users/rodrigofelippe/Documents/projetosgit/unigestao/frontend/src/pages/Contato)",
+      "Bash(mkdir -p /Users/rodrigofelippe/Documents/projetosgit/unigestao/frontend/src/data)",
+      "Bash(npm run:*)",
+      "Read(//Users/rodrigofelippe/.claude/skills/criar-agente/docs/**)"
+    ],
+    "additionalDirectories": [
+      "/Users/rodrigofelippe/Documents/projetosgit/unigestao/.claude/agent-memory"
+    ]
+  }
+}
