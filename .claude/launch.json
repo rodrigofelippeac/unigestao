@@ -7,6 +7,12 @@
       "runtimeArgs": ["run", "dev", "--", "--port", "5174"],
       "port": 5174,
       "cwd": "frontend"
+    },
+    {
+      "name": "banner",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["http-server", "briefing/banners/comunicacao-e-oratoria", "-p", "8091", "-c-1"],
+      "port": 8091
     }
   ]
 }
