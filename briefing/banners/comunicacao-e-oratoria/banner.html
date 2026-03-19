@@ -60,7 +60,8 @@
     }
 
     .uni-logo img {
-      height: 50px;
+      height: 70px;
+      filter: brightness(0) invert(1);
     }
 
     .badge {
@@ -317,11 +318,11 @@
     }
 
     .partner-logo {
-      height: 24px;
+      height: 30px;
     }
 
     .partner-logo.uni-main {
-      height: 38px;
+      height: 50px;
     }
 
     .partner-logo img {
@@ -357,12 +358,17 @@
       <div class="hero-text">
         <h1 class="title">Comuni&shy;cação e Oratória</h1>
         <p class="subtitle">Aprenda técnicas para<br>falar em público</p>
-        <div class="cta-btn" style="margin-top: 20px; display: inline-block; align-self: flex-start;">Inscreva-se</div>
+        <div style="margin-top: 20px; display: flex; flex-direction: column; align-items: center; gap: 12px;">
+          <div class="cta-btn">Inscreva-se</div>
+          <div style="width: 150px; height: 150px; border-radius: 14px; overflow: hidden; border: 2px solid rgba(255,255,255,0.2); box-shadow: 0 4px 16px rgba(0,0,0,0.15);">
+            <img src="QRCode.jpeg" alt="QR Code" style="width:100%;height:100%;object-fit:contain;">
+          </div>
+        </div>
       </div>
 
       <div class="hero-photos">
         <div class="speaker-slot">
-          <img src="dione-temp.jpg" alt="Dione Santos">
+          <img src="DioneSantosOK.jpeg" alt="Dione Santos" style="object-position: center 15%;">
           <div class="speaker-overlay">
             <span class="name">Dione Santos</span>
             <span class="role">Palestrante</span>
@@ -403,12 +409,6 @@
         </div>
       </div>
 
-      <div class="qr-block">
-        <div class="qr-img">
-          <img src="QRCode.jpeg" alt="QR Code">
-        </div>
-      </div>
-
       <div class="partners-row">
         <div class="partner-group">
           <span class="partner-label">Realização</span>
@@ -419,11 +419,11 @@
         <div class="partner-sep"></div>
         <div class="partner-group">
           <span class="partner-label">Apoio</span>
-          <div class="partner-logo dark">
-            <img src="favoo-logo.svg" alt="Favoo">
+          <div class="partner-logo">
+            <img src="favoo-logo-color.svg" alt="Favoo">
           </div>
-          <div class="partner-logo dark">
-            <img src="hubee-logo.svg" alt="Hubee">
+          <div class="partner-logo">
+            <img src="hubee-logo-color.svg" alt="Hubee">
           </div>
         </div>
       </div>
